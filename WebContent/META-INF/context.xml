@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+<Context>
+<!--	<Resource name="jdbc/rtmart_dev" auth="Container" type="javax.sql.DataSource" driverClassName="com.mysql.cj.jdbc.Driver"-->
+<!--			  url="jdbc:mysql://localhost:3306/rtmart_dev?serverTimezone=UTC" username="root" password=""-->
+<!--			  maxActive="8" />-->
+
+	<!--			  url="jdbc:mysql://invent-integrasi.co.id:3306/u8981640_rtmart_dev?characterEncoding=utf8" username="u8981640_invent" password="Invent.020"-->
+	<Resource name="jdbc/rtmart_dev" auth="Container" type="javax.sql.DataSource" driverClassName="com.mysql.cj.jdbc.Driver"
+			  url="jdbc:mysql://invent-integrasi.co.id:3306/u8981640_rtmart_dev?serverTimezone=Asia/Jakarta" username="u8981640_invent" password="Invent.020"
+			  maxActive="8" />
+</Context>
